@@ -16,20 +16,20 @@ body{
 /* Logo */
 #logo{
     width: 100%;
-    padding-top: 20px;
 }
 #logo img{
     width: 200px;
     max-width: 100%;
 }
 #landing{
-    padding-top: 60px;
+    padding-top: 80px;
     display: flex;
     flex-wrap: wrap;
 }
 /* Landing */
 .landing-image{
-    flex-basis: 50%;
+    width: 100%;
+    flex-basis: 58%;
 }
 .landing-image img{
   max-width: 100%;
@@ -37,12 +37,11 @@ body{
   max-height: 100%;
 }
 .landing-info{
-    padding: 60px 0px 0px 60px;
-    flex-basis: 50%;
-    max-width: 560px;
+    flex-basis: 42%;
+    padding: 60px 0px 0px 20px;
+    max-width: 520px;
 }
 .landing-info h1{
-    font-family: 'Poppins', sans-serif;
     color: #fff;
 }
 .landing-info p{
